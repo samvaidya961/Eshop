@@ -8,8 +8,9 @@
 
     }
     @media(min-width:900px){
-      .navbar1{
-   display: none;
+    
+    .navbar1{
+    display: none;
     }
     .navbar{
     box-shadow: 0px 8px 8px -6px rgba(190, 190, 190, 0.5);
@@ -25,7 +26,7 @@
 
     body{
         background-color: rgb(234, 255, 250);
-        background-image: linear-gradient(90deg,rgb(221, 221, 221),rgb(245, 245, 245));
+        background-image: linear-gradient(90deg,rgb(240, 240, 240),rgb(245, 245, 245));
     }
 
 
@@ -40,8 +41,6 @@
     width: 100%;
     box-sizing: border-box;
     z-index: 1;
-    background-color: #fff;
-    padding-bottom: 1rem;
     }
     .carousel-oc{
     max-width: 1300px;
@@ -51,7 +50,7 @@
     padding-bottom: 0;
     }
     .carousel-oc .card{
-    margin: 20px 0;
+    margin: 0px 0;
     height: 12rem;
     box-sizing: border-box;
     border: 2px solid rgb(255, 255, 255);
@@ -143,6 +142,10 @@
         font-size: 1.3rem;
         text-transform: uppercase;
     }
+    .heading2 h2{
+        font-size: 1.3rem;
+        text-transform: uppercase;
+    }
 }
 
 
@@ -185,6 +188,105 @@
     }
 }
 
+
+/* your orders */
+#orders{
+    width: 80%;
+    background-color: #fff;
+    margin: 1rem;
+    margin-left: 10%;
+    padding: 2rem;
+    margin-bottom: 5rem;
+}
+.orders-cont1{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.or-sb{
+    width: 60%; 
+}
+.orders-cont2{
+    margin-top: 3rem;
+}
+.order-item{
+    display: flex;
+    border: 1px solid rgb(219, 219, 219);
+    padding: 1rem;
+}
+.order-img{
+    height: 11rem;
+    width: 10rem;
+}
+.order-img img{
+    height: 10rem;
+}
+.order-by p{
+    color: grey;
+}
+
+@media(max-width:700px){
+    #orders{
+        width: 99%;
+        margin: 0;
+    }
+    .order-item{
+        flex-direction: column;
+    }
+    .order-img{
+        text-align: center;
+        width: 100%;
+    }
+    .orders-cont1{
+        flex-direction: column;
+    }
+    .or-sb{
+        width: 100%; 
+    }
+}
+
+/* cart */
+.pro-buy{
+    text-align: center;
+}
+#cartItems{
+    margin-top: 2rem;
+}
+.cart-item{
+    margin: 2rem;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    background-color: #fff;
+    padding: 1rem;
+}
+.cart-item-img{
+    height: 11rem;
+    width: 10rem;
+}
+.cart-item-img img{
+    height: 10rem;
+}
+.instock p{
+    color: rgb(3, 163, 3);
+    font-weight: 500;
+}
+.citem-soldby p{
+    color: grey;
+}
+
+@media(max-width:700px){
+    .cart-item{
+        margin: 1rem;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .cart-item-img{
+        width: 100%;
+        text-align: center;
+    }
+}
     /* footer */
 
     .footer{
