@@ -331,6 +331,7 @@
     margin-left: 20%;
     padding: 1rem;
     background-color: #fff;
+    height: 15rem;
 }
 .categ-listimg{
     height: 11rem;
@@ -365,7 +366,8 @@ font-size: 20px;
     .categ-listitem{
         width: 99%;
         margin-left: 0.5%;
-        padding: 0.2rem;
+        padding: 0.5rem;
+        height: 10.5rem;
     }
     .categ-listimg{
         height: 100%;
