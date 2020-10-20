@@ -29,7 +29,9 @@
         background-image: linear-gradient(90deg,rgb(240, 240, 240),rgb(245, 245, 245));
     }
 
-
+    a:hover{
+        text-decoration: none;
+    }
 
 
     /* offer cards owl carousel */
@@ -62,7 +64,8 @@
     
     .owl-dots{
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0rem;
+    
     }
     .owl-dot{
     height: 10px;
@@ -73,6 +76,7 @@
     border: 2px solid #bbbbbb!important;
     box-shadow: 0px 4px 5px rgb(236, 236, 236);
     transition: all 0.3s ease-in;
+   
     }
     .owl-dot.active,
     .owl-dot:hover{
@@ -187,8 +191,13 @@
         margin-bottom: 0rem;
     }
 }
+.categ-name p{
+    color: black;
+}
 
-
+.categ-explore span:hover{
+    color: crimson;
+}
 /* your orders */
 #orders{
     width: 80%;
@@ -285,6 +294,103 @@
     .cart-item-img{
         width: 100%;
         text-align: center;
+    }
+}
+
+/* seller registration */
+
+.reg-form{
+    margin: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+    width: 60%;
+    margin-left: 20%;
+}
+.heading3{
+    margin: 2rem;
+    text-align: center;
+}
+@media(max-width:700px){
+    .reg-form{
+        width: 96%;
+        margin: 0;
+        margin-left: 2%;
+    }
+    .heading3 h2{
+        font-size: 1.3rem;
+    }
+   
+}
+
+/* single category list of products */
+
+.categ-listitem{
+    display: flex;
+    width: 60%;
+    margin: 0.2rem;
+    margin-left: 20%;
+    padding: 1rem;
+    background-color: #fff;
+}
+.categ-listimg{
+    height: 11rem;
+    width: 30rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+.categ-listimg img{
+    height: 10rem;
+}
+.categ-listname p{
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+}
+.categ-listname p:hover{
+    text-decoration: rgb(192, 192, 192) underline;
+}
+.rat-value{
+   font-size: 15px;
+}
+.categ-listprice p{
+margin-top: 0.7rem;
+margin-bottom: 5px;
+font-weight: 500;
+font-size: 20px;
+}
+.categ-listdet{
+    width: 90%;
+}
+@media(max-width:700px){
+    .categ-listitem{
+        width: 99%;
+        margin-left: 0.5%;
+        padding: 0.2rem;
+    }
+    .categ-listimg{
+        height: 100%;
+        width: 8rem;
+        margin-right: 0.5rem;
+        margin-top: 10%;
+    }
+    .categ-listimg img{
+        height: 4rem;
+    }
+    .categ-listname p{
+        font-size: 0.8rem;
+        margin-bottom: 0;
+    }
+    .rat-value{
+        font-size: 11px;
+     }
+     .categ-listprice p{
+        margin-top: 0rem;
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 15px;
+    }
+    .categ-listdisc p{
+        font-size: 12px;
     }
 }
     /* footer */
